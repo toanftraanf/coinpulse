@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import {usePathname} from "next/dist/client/components/navigation";
+import {usePathname} from "next/navigation";
 import {cn} from "@/lib/utils";
 
 const Header = () => {
